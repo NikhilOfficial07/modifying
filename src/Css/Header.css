@@ -3,7 +3,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color:  #131921;
+    background-color:  #14ABD0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -40,7 +40,7 @@
   .header__cartIcon {
     padding: 5px;
     height: 29px !important;
-    background-color: #131921;
+    background-color: #14ABD0;
   }
   
   .header__optionLineOne {
