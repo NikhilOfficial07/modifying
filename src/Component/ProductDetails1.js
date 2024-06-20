@@ -103,27 +103,7 @@ function ProductDetails1() {
           bags, setting the standard for quality in the industry.
         </p>
         <br></br>
-        <div className="icons">
-          <div className="icon">
-            <img src="../images/8.png" className="i" />
-            <p>Free Delivery</p>
-          </div>
-
-          <div className="icon">
-            <img src="../images/9.png" className="i" />
-            <p>Accept Amazon Pay</p>
-          </div>
-
-          <div className="icon">
-            <img src="../images/10.png" className="i" />
-            <p>2-year warranty</p>
-          </div>
-
-          <div className="icon">
-            <img src="../images/11.png" className="i" />
-            <p>Top Brand</p>
-          </div>
-        </div>
+         
 
         <div className="product-data-info">
           <p>

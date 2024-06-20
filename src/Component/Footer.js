@@ -2,51 +2,54 @@ import React from "react";
 import "../Css/Footer.css";
 
 const Footer = () => {
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
   return (
     <footer className="footer">
       <div className="footer__backToTop" onClick={scrollToTop}>
-        Back to top
+        Back to Top
       </div>
       <div className="footer__linkContainer">
-        <div className="footer__links">
-          <h3 className="footer__linksTitle">Get to Know Us</h3>
-          <p className="footer__link">About Us</p>
-          <p className="footer__link">Careers</p>
-          <p className="footer__link">Press Releases</p>
-          <p className="footer__link">Amazon Cares</p>
-          <p className="footer__link">Gift a Smile</p>
+        <div className="footer__column">
+          <h3 className="footer__title">About GreenCart</h3>
+          <ul className="footer__list">
+            <li className="footer__listItem">Our Mission</li>
+            <li className="footer__listItem">Eco-Friendly Practices</li>
+            <li className="footer__listItem">Community Involvement</li>
+            <li className="footer__listItem">Sustainability Goals</li>
+          </ul>
         </div>
-        <div className="footer__links">
-          <h3 className="footer__linksTitle">Connect with Us</h3>
-          <p className="footer__link">Facebook</p>
-          <p className="footer__link">Twitter</p>
-          <p className="footer__link">Instagram</p>
+        <div className="footer__column">
+          <h3 className="footer__title">Customer Care</h3>
+          <ul className="footer__list">
+            <li className="footer__listItem">Support Center</li>
+            <li className="footer__listItem">How to Shop</li>
+            <li className="footer__listItem">Order Status</li>
+            <li className="footer__listItem">Shipping Information</li>
+          </ul>
         </div>
-        <div className="footer__links">
-          <h3 className="footer__linksTitle">Make Money with Us</h3>
-          <p className="footer__link">Sell on Amazon</p>
-          <p className="footer__link">Sell under Amazon Accelerator</p>
-          <p className="footer__link">Amazon Global Selling</p>
-          <p className="footer__link">Become an Affiliate</p>
-          <p className="footer__link">Amazon Pay on Merchants</p>
-          <p className="footer__link">Advertise Your Products</p>
+        <div className="footer__column">
+          <h3 className="footer__title">Services</h3>
+          <ul className="footer__list">
+            <li className="footer__listItem">GreenCart Membership</li>
+            <li className="footer__listItem">Affiliate Program</li>
+            <li className="footer__listItem">Vendor Partnership</li>
+            <li className="footer__listItem">Gift Cards</li>
+          </ul>
         </div>
-        <div className="footer__links">
-          <h3 className="footer__linksTitle">Let Us Help You</h3>
-          <p className="footer__link">COVID-19 and Amazon</p>
-          <p className="footer__link">Your Account</p>
-          <p className="footer__link">Returns Centre</p>
-          <p className="footer__link">100% Purchase Protection</p>
-          <p className="footer__link">Amazon App Download</p>
-          <p className="footer__link">Help</p>
+        <div className="footer__column">
+          <h3 className="footer__title">Connect with Us</h3>
+          <ul className="footer__list">
+            <li className="footer__listItem">Facebook</li>
+            <li className="footer__listItem">Twitter</li>
+            <li className="footer__listItem">Instagram</li>
+            <li className="footer__listItem">LinkedIn</li>
+          </ul>
         </div>
       </div>
     </footer>
