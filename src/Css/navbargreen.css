@@ -1,5 +1,5 @@
-.amazon-nav {
-    background-color: #232f3e; /* Background color */
+.green-cart-nav {
+    background-color:black; /* Background color */
     color: #ffffff; /* Text color */
     display: flex;
     justify-content: space-between;
@@ -10,29 +10,29 @@
     height: 40px; /* Fixed height of the navigation bar */
   }
   
-  .amazon-nav-section {
+  .green-cart-nav-section {
     display: flex;
     align-items: center; /* Vertically center the list and button */
   }
   
-  .amazon-nav-list {
+  .green-cart-nav-list {
     list-style: none;
     display: flex;
     margin: 10px;
     padding: 10px 10px;
   }
   
-  .amazon-nav-list li {
+  .green-cart-nav-list li {
     margin-right: 20px;
   }
   
-  .amazon-nav a {
+  .green-cart-nav a {
     text-decoration: none;
     color: #ffffff; /* Text color */
     transition: color 0.3s;
   }
   
-  .amazon-nav a:hover {
-    color: #FF9900; /* Change text color on hover */
+  .green-cart-nav a:hover {
+    color: rgb(6, 240, 14);; /* Change text color on hover */
   }
   

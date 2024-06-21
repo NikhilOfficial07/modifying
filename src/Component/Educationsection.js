@@ -9,12 +9,12 @@ function Educationsection() {
     {
       question: "Why did we create Greenovation Zone?",
       answer:
-        "The Amazon Greenovation Zone was created to make it easier for customers to find and buy eco-friendly products. This promotes conscious shopping, reduces environmental impact, enhances the customer experience",
+        "The Green Cart Greenovation Zone was created to make it easier for customers to find and buy eco-friendly products. This promotes conscious shopping, reduces environmental impact, enhances the customer experience",
     },
     {
       question: "What criteria are used to certify products as eco-friendly?",
       answer:
-        "Products are certified as eco-friendly based on criteria like eco-friendly certificates, carbon emissions, material sourcing, recyclability, plastic usage, energy efficiency, water conservation, non-toxicity, and packaging. These certifications are awarded by reputable eco-friendly organizations and verified by Amazon.",
+        "Products are certified as eco-friendly based on criteria like eco-friendly certificates, carbon emissions, material sourcing, recyclability, plastic usage, energy efficiency, water conservation, non-toxicity, and packaging. These certifications are awarded by reputable eco-friendly organizations and verified by Green Cart.",
     },
     {
       question:
@@ -65,7 +65,7 @@ function Educationsection() {
         <h1>Zero Waste Production through Return Box System</h1>
         <br />
         <p>
-          Our solution leverages Amazon's existing infrastructure for recycling
+          Our solution leverages Green Cart's existing infrastructure for recycling
           boxes from returned products. When enough customers choose the "return
           box" option and a specific region exceeds a set box threshold,
           scheduled pickups are arranged. Customers receive notifications via

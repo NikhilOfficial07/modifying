@@ -65,7 +65,8 @@
   }
   
   .buttonxyz {
-    background-color: #febd69;
+    background-color:rgb(141, 205, 205);
+      
     color: black;
     padding: 10px 30px;
     margin-top: 10px;
@@ -78,6 +79,6 @@
   }
 
   .buttonxyz:hover {
-    background-color: #f9c989;
+    background-color:rgb(6, 240, 14);
   }
   

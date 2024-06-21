@@ -3,20 +3,20 @@ import '../Css/navbargreen.css';
 import { Link } from 'react-router-dom';
 //import Popover from './Popover';
 
-const AmazonNavigationBarg = () => {
+const GreenNavigationBar= () => {
   return (
-    <div className="amazon-nav">
-      <div className="amazon-nav-section">
-        <ul className="amazon-nav-list">
+    <div className="green-cart-nav">
+      <div className="green-cart-nav-section">
+        <ul className="green-cart-nav-list">
           <Link style={{textDecoration: 'none'}} to = "/green">
             <li><a href="#" style={{ color: '#146eb4' }}>Home</a></li>
           </Link>
           <li><a href="#">Today's Deals</a></li>
-          <li><a href="#">Amazon Pay</a></li>
-          <li><a href="#">Amazon miniTV</a></li>
+          <li><a href="#">Green Pay</a></li>
+         
           <li><a href="#">Personal Care</a></li>
           <li><a href="#">Bamboo</a></li>
-          <li><a href="#">Home & Kitchen</a></li>
+          <li><a href="#">Kitchen</a></li>
           <li><a href="#">Gift cards</a></li>
           <Link style={{textDecoration: 'none'}} to = "/seller">
           <li><a href="#" style={{ color: '#146eb4' }}>Seller</a></li>
@@ -38,4 +38,4 @@ const AmazonNavigationBarg = () => {
   );
 };
 
-export default AmazonNavigationBarg;
+export default GreenNavigationBar;
