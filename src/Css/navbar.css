@@ -1,45 +1,54 @@
-.amazon-nav {
-  background-color: #232f3e; /* Background color */
-  color: #ffffff; /* Text color */
+.green-cart-nav {
+  background-color: black;
+  /* Background color */
+  color: #ffffff;
+  /* Text color */
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Vertically center the content */
-  padding: 5px 20px; /* Decreased top and bottom padding */
+  align-items: center;
+  /* Vertically center the content */
+  padding: 5px 20px;
+  /* Decreased top and bottom padding */
   font-size: 14px;
   font-weight: bold;
-  height: 40px; /* Fixed height of the navigation bar */
+  height: 40px;
+  /* Fixed height of the navigation bar */
 }
 
-.amazon-nav-section {
+.green-cart-nav-section {
   display: flex;
-  align-items: center; /* Vertically center the list and button */
+  align-items: center;
+  /* Vertically center the list and button */
 }
 
-.amazon-nav-list {
+.green-cart-nav-list {
   list-style: none;
   display: flex;
   margin: 10px;
   padding: 10px 10px;
 }
 
-.amazon-nav-list li {
+.green-cart-nav-list li {
   margin-right: 20px;
 }
 
-.amazon-nav a {
+.green-cart-nav a {
   text-decoration: none;
-  color: #ffffff; /* Text color */
+  color: #ffffff;
+  /* Text color */
   transition: color 0.3s;
 }
 
-.amazon-nav a:hover {
-  color: #FF9900; /* Change text color on hover */
+.green-cart-nav a:hover {
+  color:rgb(6, 240, 14);
+  /* Change text color on hover */
 }
 
 .button {
   background-color: #4CAF50;
   color: #ffffff;
-  padding: 5px 5px 5px; /* Adjust the padding to your preference */
+  padding: 5px 5px 5px;
+  /* Adjust the padding to your preference */
   border: none;
   border-radius: 10px;
   text-align: center;
@@ -51,7 +60,7 @@
 }
 
 .button:hover {
-  background-color: #309335;
+  background-color:rgb(6, 240, 14);
 }
 
 .popover_trigger_nav {
@@ -67,11 +76,11 @@
   color: black;
   font-weight: 500;
   background-color: #ffffff;
-  transform: translate(-50%,30%);
+  transform: translate(-50%, 30%);
   padding: 10px 15px;
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  display:block;
+  display: block;
   z-index: 2;
   text-align: center;
 }
@@ -85,7 +94,7 @@
 
 .triangle {
   position: absolute;
-  top: -9px; 
+  top: -9px;
   left: 50%;
   transform: translateX(-50%);
   border-left: 10px solid transparent;
@@ -93,14 +102,14 @@
   border-bottom: 10px solid #ffffff;
 }
 
-.got_it{
-  background-color: rgb(141, 205, 205);;
+.got_it {
+  background-color: rgb(141, 205, 205);
   color: black;
   padding: 10px 30px;
   margin-top: 10px;
   border: 0;
   border-width: 0px;
-  border-radius:5px;
+  border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   /* font-weight: 500; */
   font-weight: bold;

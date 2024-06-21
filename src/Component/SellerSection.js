@@ -53,7 +53,7 @@ function SellerSection() {
         className="seller-image"
       />
       <div className="seller-info">
-        <h2>Sell Eco-Friendly Products on Amazon</h2>
+        <h2>Sell Eco-Friendly Products on Green Cart</h2>
         <p>
           Help us create a sustainable shopping experience by providing details
           about your eco-friendly products.

@@ -7,6 +7,7 @@
   width: 300px;
   height: 100px;
   padding: 20px;
+  margin-left: 2rem !important;
   background: linear-gradient(
     to bottom right,
     rgb(240, 229, 235),
@@ -17,12 +18,14 @@
 }
 
 .subtotal__gift {
+
   display: flex; /* Change display to inline or inline-block */
   align-items: center;
   margin-top: 10px;
 }
 
 .checkbox {
+
   width: 20px;
 }
 
@@ -31,7 +34,7 @@
 } */
 
 .proceed {
-  background-color: #febd69;
+  background-color: rgb(141, 205, 205);;
   color: black;
   padding: 10px 30px;
   margin-top: 10px;
@@ -43,5 +46,5 @@
 }
 
 .proceed:hover {
-  background-color: #f9c989;
+  background-color: rgb(6, 240, 14);
 }
