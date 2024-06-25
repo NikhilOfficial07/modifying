@@ -84,7 +84,7 @@
 }
 
 .addtocart {
-  background-color: #f0c14b;
+  background-color: rgb(141, 205, 205);
   color: #111;
   padding: 10px 30px;
   margin-top: 10px;
@@ -96,7 +96,7 @@
 }
 
 .addtocart:hover {
-  background-color: #d1ac44;
+  background-color: rgb(6, 240, 14);
 }
 
 .img-desc .price {
