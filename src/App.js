@@ -3,8 +3,7 @@ import "./App.css";
 import Header from "./Component/Header";
 import Home from "./Component/Home";
 import NavBar from "./Component/navbar";
-import Checkout from "./Component/Checkout"
-import Login from "./Component/Login";
+import Checkout from "./Component/Checkout" 
 import Headergreen from "./Component/Headergreen";
 import Homegreen from "./Component/Homegreen";
 import NavBarg from "./Component/navbargreen";
@@ -38,7 +37,6 @@ function App() {
           <Route path="/sustainability" element={[<Headergreen/>,<NavBarg/>, <SustainabilityReportsSection/>, <Footer/>  ]}/>
           <Route path="/education" element={[<Headergreen/>,<NavBarg/>, <EducationSection/>, <Footer/>  ]}/>
           <Route path="/green" element={[<Headergreen/>,<NavBarg/>, <Homegreen/>, <Footer/>  ]}/>
-          <Route path="/login" element={<Login/>}/> 
           <Route path="/checkout" element={[<Header />, <Checkout/>, <Footer/>  ]}/>
           <Route path="/" element={[<Header />, <NavBar/>, <Home />, <Footer/>  ]}/>
           <Route path="/dashboard" element={[<Header />, <NavBarg/>, <Dashboard/>]} />

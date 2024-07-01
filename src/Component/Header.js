@@ -31,7 +31,7 @@ function Header() {
       </div>
 
       <div className="header__nav">
-        <Link style={{ textDecoration: "none" }} to="/login">
+        <Link style={{ textDecoration: "none" }} to="/">
           <div className="header__option">
             <span className="header__optionLineOne">Hello Guest</span>
             <span className="header__optionLineTwo">Sign In</span>
